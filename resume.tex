@@ -1,10 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
-
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -123,22 +116,19 @@
       {Software Developer}{Jan. 2022 -- Present}
       {Newton.co}{Toronto, ON}
       \resumeItemListStart
-        \resumeItem{Contributed to the development of a deposit/withdrawal microservice, which handles over 1 billion CAD in transactions annually, by writing a majority of the tests and implementing failsafes.}
-        \resumeItem{Implemented a microservice that greatly improved the efficiency of generating monthly crypto balance reports, reducing the time by 22000x.}
-        \resumeItem{Designed and developed a ledger database for tracking user balances and trades, used to ensure accurate state.}
+        \resumeItem{One of two developers responsible for the development of Newton Social. Since launch, an increase 4\% increase in converstion rate was observed.}
+        \resumeItem{Sole developer of a machine learning pipeline to cluster and classify relavent news articles, which is used to generate Newton's news and topic feeds.}
+        \resumeItem{Pioneered the usage and implementation of a custom one table DynamoDB API, which enables join-like queues for a high-performance key-value architecture.}
+        \resumeItem{Contributed to the development of a deposit/withdrawal microservices, which handles over 1 billion CAD in transactions annually.}
         \resumeItem{Deployed a blockchain reconciliation microservice to validate on-chain deposits and withdrawals, ensuring the security and integrity of all transactions.}
-        \resumeItem{Worked on adding new and experimental features to our React Native mobile application.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Frontend Developer}{Nov. 2021 -- Jan. 2022}
       {Treasure Chess}{Remote}
       \resumeItemListStart
-        \resumeItem{As a core team member, played a key role in the development of the user interface of chess.com's NFT collectible marketplace, specifically focusing on front-end contributions.}
-        \resumeItem{Designed and implemented scalable React components, styled using TailwindCSS, and thoroughly tested using Storybook to ensure a seamless user experience.}
+        \resumeItem{Played a key role in the development of the user interface of chess.com's NFT collectible marketplace.}
         \resumeItem{Built and implemented marketplace sorting and filtering functionality using a GraphQL API, allowing for dynamic and efficient data retrieval.}
-        \resumeItem{Developed and integrated functionality to seamlessly cover users' blockchain transaction fees, ensuring a smooth and streamlined marketplace experience.}
-        \resumeItem{Utilized React Spring to bring dynamic features and animations to the marketplace, making it more interactive and engaging for users.}
     \resumeItemListEnd
 
     \resumeSubheading
@@ -146,8 +136,7 @@
       {Krypto Depot}{Burlington, ON}
       \resumeItemListStart
         \resumeItem{Trading desk totalled over 1800 sales, averaging CAD 2000 each.}
-        \resumeItem{I implemented precautions including AML(anti-money laundering) compliance and FINTRAC reporting.}
-        \resumeItem{Received 100\% positive feedback from 131 reviews.}
+        \resumeItem{Implemented precautions including AML(anti-money laundering) compliance and FINTRAC reporting.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -157,19 +146,17 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\href{https://github.com/kai-thompson/i-can-react}{\underline{i-can-react}} $|$ \emph{Typescript, React, Tailwind CSS, Redux, Vite}}{November 2022}
+          {\href{https://github.com/tanveersgill/re-leaf}{\underline{ReLeaf}} (\href{https://devpost.com/software/re-leaf-iu2cje}{\underline{Devpost}}) $|$ \emph{Typescript, React, Tailwind CSS, Redux, Vite, Express.js, GCP, Playwright}}{May 2023}
           \resumeItemListStart
-            \resumeItem{Created a React boilerplate to quickly start new projects.}
-            \resumeItem{Utilized Tailwind CSS to create a custom theme and components.}
-            \resumeItem{Implemented Redux Tool Kit (RTK) to manage state across the application.}
+            \resumeItem{A one stop shop for renewablility focused travel planning.}
+            \resumeItem{Winner of Best Sustainability Hack sponsored by Avande (Microsoft) at MetHacks 2023.}
+            \resumeItem{Top contributor to the project, responsible for the majority of the backend and cloud development.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\href{https://github.com/kai-thompson/eth-date-to-block}{\underline{eth-date-to-block}} $|$ \emph{Typescript, Jest, NPM, GitHub Workflows}}{October 2022}
           \resumeItemListStart
-            \resumeItem{Developed a NPM package to efficiently convert a date to a block number.}
             \resumeItem{2x faster and 73x smaller than the leading solution by implementing an interpolation search algorithm.}
             \resumeItem{In October 2022, it reached a peak of 292 weekly downloads.}
-            \resumeItem{Utilized GitHub Workflows to automate testing and publishing to NPM.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -178,10 +165,10 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Typescript, Javascript, Golang, Python, Swift, HTML/CSS, SQL (Postgres), GraphQL, Solidity} \\
-     \textbf{Frameworks}{: React, React Native, Node.js, Express.js, Next.js, Django, Gorilla, MongoDB/RealmDB} \\
-     \textbf{Libraries}{: Redux, TailwindCSS, SASS, Vite, NumPy, Pandas, Jest, Puppeteer} \\
-     \textbf{Developer Tools}{: Git, Docker, AWS, VS Code, Eclipse, Postman} \\
+     \textbf{Languages}{: Golang, Typescript, Python, Swift, HTML/CSS, SQL (Postgres), Solidity} \\
+     \textbf{Frameworks}{: React, React Native, Node.js, Express.js, Next.js, Django, Gorilla} \\
+     \textbf{Libraries}{: Gin, Fiber, Tailwind CSS, SASS, Vite, NumPy, Pandas, Fast API, Playwright} \\
+     \textbf{Developer Tools}{: Git, Docker, AWS (Lambda, ECS, S3, DynamoDB, SQS, SNS), GCP, VS Code, Datadog} \\
     }}
  \end{itemize}
 
@@ -189,6 +176,9 @@
  %-----------EDUCATION-----------
 \section{Education}
 \resumeSubHeadingListStart
+  \resumeSubheading
+    {University of Waterloo}{Waterloo, ON}
+    {Bachelor of Mathematics; President's Scholarship of Distinction}{Sept. 2023 -- May. 2028}
   \resumeSubheading
     {Chainshot}{Remote}
     {Ethereum and Javascript Developer Bootcamp}{Oct. 2021 -- Dec. 2021}
